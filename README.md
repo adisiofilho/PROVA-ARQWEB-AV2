@@ -24,14 +24,12 @@ Certifique-se de ter os seguintes itens instalados:
 Compile o projeto:
 
 bash
-Copiar
-Editar
+
 mvn clean install
 Inicie a aplicação:
 
 bash
-Copiar
-Editar
+
 mvn spring-boot:run
 A aplicação será iniciada e poderá ser acessada em:
 👉 http://localhost:8080
@@ -48,8 +46,7 @@ Acesse o endpoint POST /auth/login
 Utilize o seguinte corpo na requisição:
 
 json
-Copiar
-Editar
+
 {
   "username": "admin",
   "password": "123456"
@@ -100,8 +97,7 @@ Path: /auth/login
 Configure o corpo da requisição (Body Data):
 
 json
-Copiar
-Editar
+
 {
   "username": "admin",
   "password": "123456"
